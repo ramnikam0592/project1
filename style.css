@@ -1,155 +1,97 @@
-/* Base Styles */
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-}
-
-.navbar {
+.navbar{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: #f8f8f8;
-}
 
-.nav-list {
+}
+.nav-list{
+    width: 80%;
     display: flex;
     align-items: center;
-    flex: 1;
 }
-
-.nav-list li {
+.nav-list li{
     list-style: none;
-    padding: 10px;
+    padding: 23px;
+    text-align:left;
 }
-
-.nav-list li a {
+.nav-list li a{
     text-decoration: none;
     color: black;
 }
-
-.rightNav {
-    text-align: center;
+.rightNav{
+   
+    width: 20%;
+    
+    text-align:center;
     padding-top: 20px;
 }
-
-.logo {
+.logo{
     align-items: right;
 }
-
-.imgs {
+.imgs{
     margin: auto;
 }
-
 .container {
+    
     display: flex;
-    flex-wrap: wrap;
+    
     background-color: gray;
-    text-align: center;
+    font-size: ;
 }
 
 .container > div {
-    flex: 1 1 100%; /* Make each div full width by default */
-    padding: 25px;
+    
+    text-align:center;
+    width: 33.33%;
+    height: 200px;
+    font-size: 20px;
+    padding-top: 25px;
+    padding-left: %;
+     /* Optional: Add border for visualization */
 }
-
 .container2 {
+    
     display: flex;
-    flex-wrap: wrap;
-    text-align: center;
+    text-align:center;
     background-color: rgb(167, 164, 164);
+    font-size: ;
+    height: 900px;
 }
 
 .container2 > div {
-    flex: 1 1 100%; /* Make each div full width by default */
-    padding: 15px;
+    width: 33.33%;
+    height: 200px;
+    font-size: 20px;
+    padding-top: 15px;
+     /* Optional: Add border for visualization */
 }
-
 .container2 .secondsection,
 .container2 .thirdsection {
+    /* Apply padding only to second and third sections */
     padding-top: 12%;
 }
-
 .h1 {
-    width: 100%;
+    width: 500px;
     font-size: 150%;
-}
-
-.container3 {
+    height: 10%;
+  }
+  .container3 {
     padding-left: 10%;
     text-align: left;
-}
-
-.container4 {
+  }
+  .container4 {
+    
     text-align: center;
-}
-
-.container5 {
+  }
+  .container5 {
     padding-right: 10%;
     text-align: right;
-}
-
-.paragraph2 {
+  }
+  .paragraph2{
     width: 70%;
-    margin: 0 auto;
+    padding-left: 15%;
     text-align: center;
-}
-
-.paragraph3 {
-    width: 100%;
+  }
+  .paragraph3{
+    padding-left: 23%;
+    width: 110%;
     text-align: right;
-    padding-right: 10%;
-}
-
-/* Media Queries for Tablets */
-@media (min-width: 600px) {
-    .container > div {
-        flex: 1 1 50%; /* 2 columns */
-    }
-
-    .container2 > div {
-        flex: 1 1 50%; /* 2 columns */
-    }
-
-    .h1 {
-        width: 80%;
-        font-size: 2em;
-    }
-
-    .container3, .container5 {
-        width: 50%;
-    }
-
-    .paragraph3 {
-        width: 80%;
-    }
-}
-
-/* Media Queries for Desktops */
-@media (min-width: 992px) {
-    .container > div {
-        flex: 1 1 33.33%; /* 3 columns */
-    }
-
-    .container2 > div {
-        flex: 1 1 33.33%; /* 3 columns */
-    }
-
-    .h1 {
-        width: 60%;
-        font-size: 2.5em;
-    }
-
-    .container3, .container5 {
-        width: 33.33%;
-    }
-
-    .paragraph2 {
-        width: 70%;
-    }
-
-    .paragraph3 {
-        width: 60%;
-    }
-}
+  }
